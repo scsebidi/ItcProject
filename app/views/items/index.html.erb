@@ -23,7 +23,7 @@ text-align:right;
 <table>
     <% @items.each do |item| %>
       <tr>
-        <td><%= link_to image_tag(item.image), item %></td>
+        <td><%= link_to image_tag('Tulips.jpg', :size => '50x50') %></td>
         <td>
         <div class="title"><%= link_to item.title, item %></div>
         <div class="description"><%= item.description %></div>
